@@ -25,7 +25,7 @@ def refresh():
     root.after(250, refresh)  # Schedule the next update after 250 milliseconds
 
 root = ThemedTk(theme="arc")  # Create a themed Tkinter window
-root.title("RealTime Network Speed Monitor")  # Set the window title
+root.title("RealTime Network Usage Monitor")  # Set the window title
 
 download_speed_label = ttk.Label(root, text="Download Speed: - Mbps", font=('Roboto', 12))  # Create a label for download speed
 download_speed_label.pack(pady=5)  # Add the download speed label to the window
